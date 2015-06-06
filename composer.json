@@ -1,0 +1,23 @@
+
+{    "name": "page777",
+    "require": {
+        "php": ">=5.3"
+    },
+    
+    "minimum-stability": "alpha",
+    "authors": [
+        {
+        "name": "Thales Pereira",
+        "email": "thales.acp@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "LIB" : "vendor",
+            "App" : "/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
